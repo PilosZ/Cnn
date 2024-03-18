@@ -1,0 +1,197 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-image: url('imagens/BackGround.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    font-size: 1rem; /* Usando rem para tamanho de fonte base */
+    display: flex; /* Usar flexbox para centralizar */
+    justify-content: center; /* Centralizar horizontalmente */
+    align-items: center; /* Centralizar verticalmente */
+}
+
+
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 0.875rem; /* Reduz o tamanho da fonte em dispositivos menores */
+    }
+}
+
+.container {
+    width: 80%;
+    height: 100%;
+    margin: 0%;
+    overflow: auto; /* Adiciona uma barra de rolagem quando necessário */
+    display: flex; /* Usa flexbox para alinhar itens */
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+}
+
+
+.container img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura da tela */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+
+
+button {
+    position: absolute; /* Define a posição absoluta para o botão */
+    top: 50%; /* Define a distância do topo em relação ao elemento pai */
+    left: 50%; /* Define a distância da esquerda em relação ao elemento pai */
+    transform: translate(-50%, -50%); /* Centraliza o botão corretamente */
+    background-color: transparent;
+    color: transparent;
+    padding: 15px 30px; /* Define o preenchimento interno do botão */
+    font-size: 20px; /* Define o tamanho da fonte */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: none;
+}
+
+/* BOTÃO PARA RETORNAR À PÁGINA ANTERIOR */
+
+#BotVoltar {
+    position: absolute;
+    top: 9.5%;
+    left: 23.2%;
+    padding: 40px 85px;
+}
+
+/*BOTÕES DO MENU PRINCIPAL */
+
+#BotMenu {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    padding: 20px 175px;
+}
+
+/* BOTÕES PARA O MENU */ 
+
+#BotBatMenu {
+    position: absolute;
+    top: 32%;
+    left: 22.2%;
+    padding: 150px 85px;
+}
+
+#BotCompMenu {
+    position: absolute;
+    top: 32%;
+    left: 51%;
+    padding: 150px 85px;
+}
+
+#BotTampaMenu {
+    position: absolute;
+    top: 32%;
+    left: 80%;
+    padding: 150px 85px;
+}
+
+#BotTouchMenu {
+    position: absolute;
+    top: 90%;
+    left: 22.2%;
+    padding: 150px 85px;
+}
+
+#BotFeMenu {
+    position: absolute;
+    top: 90%;
+    left: 51%;
+    padding: 150px 85px;
+}
+
+#BotAceMenu {
+    position: absolute;
+    top: 90%;
+    left: 80%;
+    padding: 150px 85px;
+}
+
+/* BOTÕES PARA O MENU DAS BATERIAS */
+
+#BotBatApple {
+    position: absolute;
+    top: 15%;
+    left: 17%;
+    padding: 150px 55px;
+}
+
+#BotBatMoto {
+    position: absolute;
+    top: 90%;
+    left: 80%;
+    padding: 150px 85px;
+}
+
+#BotBatSam {
+    position: absolute;
+    top: 90%;
+    left: 80%;
+    padding: 150px 85px;
+}
+
+#BotBatMi {
+    position: absolute;
+    top: 90%;
+    left: 80%;
+    padding: 150px 85px;
+}
+
+#BotBatAsus {
+    position: absolute;
+    top: 90%;
+    left: 80%;
+    padding: 150px 85px;
+}
+
+#BotBatLG {
+    position: absolute;
+    top: 90%;
+    left: 80%;
+    padding: 150px 85px;
+}
+
+#BotBatLenovo {
+    position: absolute;
+    top: 90%;
+    left: 80%;
+    padding: 150px 85px;
+}
+
+#BotBatMulti {
+    position: absolute;
+    top: 90%;
+    left: 80%;
+    padding: 150px 85px;
+}
+
+#BotBatPositivo {
+    position: absolute;
+    top: 90%;
+    left: 80%;
+    padding: 150px 85px;
+}
+
+#BotBatAlcatel {
+    position: absolute;
+    top: 90%;
+    left: 80%;
+    padding: 150px 85px;
+}
+
+#BotBatNoco {
+    position: absolute;
+    top: 90%;
+    left: 80%;
+    padding: 150px 85px;
+}
